@@ -6,7 +6,7 @@
 #    By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 10:06:57 by clacaill          #+#    #+#              #
-#    Updated: 2022/11/10 18:36:23 by clacaill         ###   ########.fr        #
+#    Updated: 2022/11/10 19:25:35 by clacaill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,6 +45,7 @@ LIBFT		= ft_atoi.c\
 		ft_substr.c\
 		ft_tolower.c\
 		ft_toupper.c
+		
 OBJS		= ${LIBFT:.c=.o}
 CC			= gcc
 CFLAGS		= -Wall -Wextra -Werror
