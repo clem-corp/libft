@@ -6,7 +6,7 @@
 #    By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 10:06:57 by clacaill          #+#    #+#              #
-#    Updated: 2022/11/04 16:14:00 by clacaill         ###   ########.fr        #
+#    Updated: 2022/11/10 18:36:23 by clacaill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,15 +20,6 @@ LIBFT		= ft_atoi.c\
 		ft_isdigit.c\
 		ft_isprint.c\
 		ft_itoa.c\
-		ft_lstadd_back.c\
-		ft_lstadd_front.c\
-		ft_lstclear.c\
-		ft_lstdelone.c\
-		ft_lstiter.c\
-		ft_lstlast.c\
-		ft_lstmap.c\
-		ft_lstnew.c\
-		ft_lstsize.c\
 		ft_memchr.c\
 		ft_memcmp.c\
 		ft_memcpy.c\
@@ -55,7 +46,6 @@ LIBFT		= ft_atoi.c\
 		ft_tolower.c\
 		ft_toupper.c
 OBJS		= ${LIBFT:.c=.o}
-BONUS_O		= ${BONUS_C:.c=.o}
 CC			= gcc
 CFLAGS		= -Wall -Wextra -Werror
 RM			= rm -rf
@@ -70,7 +60,6 @@ all:    ${NAME}
 
 clean:
 		${RM} ${OBJS}
-		${RM} ${BONUS_O}
 
 fclean:    clean
 		${RM} ${NAME}
